@@ -26,6 +26,14 @@ mongo =
 
 mongo._start = (api, next) ->
   config = api.configData.mongo
+  unless config
+    config =
+      seed: yes
+      host: "localhost"
+      port: 27017
+      db: "test"
+      user: ""
+      pass: ""
 
   api.mongo.db = mongodb.db(
     "#{config.user}:#{config.pass}@#{config.host}:#{config.port}/#{config.db}",

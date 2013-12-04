@@ -34,6 +34,16 @@ mongo = {
 mongo._start = function(api, next) {
   var config;
   config = api.configData.mongo;
+  if (!config) {
+    config = {
+      seed: true,
+      host: "localhost",
+      port: 27017,
+      db: "test",
+      user: "",
+      pass: ""
+    };
+  }
   api.mongo.db = mongodb.db("" + config.user + ":" + config.pass + "@" + config.host + ":" + config.port + "/" + config.db, {
     w: 1
   });
