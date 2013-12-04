@@ -1,0 +1,37 @@
+{
+  "name": "actionHero-mongoskin",
+  "version": "0.0.1",
+  "description": "MongoDB initializers for actionHero backed by MongoSkin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/panjiesw/actionHero-mongoskin"
+  },
+  "keywords": [
+    "actionHero",
+    "initializer",
+    "mongoskin",
+    "mongodb"
+  ],
+  "author": "Panjie SW <panjie@panjiesw.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/panjiesw/actionHero-mongoskin/issues"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "actionHero": "~7.0.0",
+    "mongoskin": "~0.6.1",
+    "validator": "~2.0.0"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "which": "~1.0.5",
+    "should": "~2.1.0",
+    "mocha": "~1.14.0",
+    "request": "~2.27.0"
+  }
+}
