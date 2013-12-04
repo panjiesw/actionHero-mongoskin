@@ -45,7 +45,6 @@ mongo._start = (api, next) ->
       api.log err.stack, 'error'
       process.exit 1
     api.mongo.toObjectId = api.mongo.toId = api.mongo.db.toId
-    api.mongo.collection = api.mongo.db.collection
     api.log "MongoDB connection opened", 'debug'
     if config.seed
       api.log "Seed set to true, dropping database first"
