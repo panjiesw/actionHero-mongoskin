@@ -21,7 +21,7 @@
 The easiest way is to install this package via npm and save it as dependency to your actionHero project.
 
 ```
-npm install actionHero-mongoskin --save
+npm install actionhero-mongoskin --save
 ```
 
 Create an initializer, require `actionHero-mongoskin` then expose your initializer with `mongoinit`
