@@ -1,5 +1,5 @@
 {
-  "name": "actionHero-mongoskin",
+  "name": "actionhero-mongoskin",
   "version": "0.0.1",
   "description": "MongoDB initializers for actionHero backed by MongoSkin",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "url": "git://github.com/panjiesw/actionHero-mongoskin"
   },
   "keywords": [
-    "actionHero",
+    "actionhero",
     "initializer",
     "mongoskin",
     "mongodb"
@@ -27,7 +27,7 @@
   },
   "readmeFilename": "README.md",
   "dependencies": {
-    "actionHero": "~7.0.0",
+    "actionhero": "~7.0.0",
     "mongoskin": "~0.6.1",
     "validator": "~2.0.0"
   },
