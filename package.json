@@ -4,10 +4,10 @@
   "description": "MongoDB initializers for actionHero backed by MongoSkin",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/.bin/actionHero start",
-    "startCluster": "node ./node_modules/.bin/actionHero startCluster",
-    "actionHero": "node ./node_modules/.bin/actionHero",
-    "help": "node ./node_modules/.bin/actionHero help",
+    "start": "node ./node_modules/.bin/actionhero start",
+    "startCluster": "node ./node_modules/.bin/actionhero startCluster",
+    "actionHero": "node ./node_modules/.bin/actionhero",
+    "help": "node ./node_modules/.bin/actionhero help",
     "test": "node ./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
